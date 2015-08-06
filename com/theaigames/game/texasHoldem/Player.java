@@ -108,7 +108,7 @@ public class Player
 			if(parts.length != 2)
 				bot.addToDump("Bot input '" + response + "' does not split into two parts. Action set to \"check\"");
 	    	else
-	        	return new PokerMove(parts[0], Integer.valueOf(parts[1]));
+	        	return new PokerMove(parts[0], (int) Double.parseDouble(parts[1]));
 		}
 		
 		return new PokerMove("check", 0);
