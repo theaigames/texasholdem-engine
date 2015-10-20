@@ -38,6 +38,8 @@ public class Player
 	{
 		this.bot = bot;
 		this.name = name;
+		this.maxTimeBank = maxTimeBank;
+		this.timePerMove = timePerMove;
 	}
 	
 	/**
