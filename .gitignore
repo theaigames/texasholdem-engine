@@ -3,3 +3,4 @@ out.txt
 .classpath
 .project
 lib/
+*.class
